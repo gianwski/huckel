@@ -1,0 +1,10 @@
+20            ! number of atoms
+linear        ! set if the system is linear or cyclic (character)
+.TRUE.        ! dimerization: Bond alternation (logical)
+.FALSE.       ! dimerization: Atom alternation (logical)
+1             ! number of atom in the unit cell (integer)
+1             ! number of electron per unit cell (integer)
+0             ! alpha/alpha1 alpha2 ... (real)
+-1.0 -0.8     ! beta/beta+, beta- (real)
+4             ! number of eigenvector to print (integer)
+1 2 3 4       ! eigenvector you want to print (integer)
